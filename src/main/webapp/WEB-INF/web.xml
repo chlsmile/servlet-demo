@@ -4,4 +4,15 @@
 
 <web-app>
   <display-name>servlet demo web</display-name>
+
+  <servlet>
+    <servlet-name>LifeDemoServlet</servlet-name>
+    <servlet-class>com.chlsmile.demo.web.LifeDemoServlet</servlet-class>
+   <!-- <load-on-startup>0</load-on-startup>-->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LifeDemoServlet</servlet-name>
+    <url-pattern>/LifeDemoServlet</url-pattern>
+  </servlet-mapping>
+
 </web-app>
